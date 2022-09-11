@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header hide-on-mobile-tablet">
+        <div class="grid wide">
+            <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">Vào cửa hàng ứng dụng F8-Shop</li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-tittle--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-has--notify">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Set kem mắt tái sinh Ohui The
+                                                    First Geniture Eye Cream Edition Grand Blue
+                                                </span>
+                                                 <span class="header__notify-description">The First Geniture Eye
+                                                        Cream Edition Grand Blue – Biểu tượng của tình yêu vĩnh cửu
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1586785742-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Set dưỡng ẩm whoo vàng Gong Jin
+                                                    Hyang 336ml
+                                                </span>
+                                                 <span class="header__notify-description">Set dưỡng whoo Gong Jin
+                                                    Hyang - set dưỡng whoo vàng chống lõa hóa, làm sáng và săn chắc
+                                                    da
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://img.abaha.vn/photos/origin/83-1585291439-myphamohui-lgvina.png" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Bộ dưỡng trắng da Su:m37
+                                                    Water-full Radiant 3pcs Set
+                                                </span>
+                                                 <span class="header__notify-description">Nước cân bằng cấp ẩm làm
+                                                    sáng da tăng độ đàn hồi Su:m37 Water-full Radiant Hydrating Glow
+                                                    Toner
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="grid wide">
+        <div class="header__with-search">
+            <div class="header__logo hide-on-mobile-tablet">
+                <a href="" class="header__logo-link">
+                    <img src="https://adev42.com/frontend/assets/f8-shop/img/logo-72.svg" alt="" 
+                    class="header__logo-img">
+                </a>
+            </div>
+            <div class="header__search">
+                <div class="header__search-input-wrap">
+                    <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm  ">
+                    <!-- LỊCH SỬ TÌM KIẾM -->
+        
+        
+                    <div class="header__search-history-wrap">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Kem dưỡng da</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Kem trị mụn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+    
+    
+    
+                </div>
+    
+    
+    
+    
+                <div class="header__search-select">
+                    <span class="header__search-select-lable">Trong shop</span>
+                    <i class="header__search-select-lable-icon fa-solid fa-chevron-down"></i>
+                    <ul class="header__search-oppion">
+                        <li class="header__search-oppion-item">
+                            <span>Trong shop</span>
+                            <i class=" fa-solid fa-check"></i>
+                        </li>
+                        <li class="header__search-oppion-item">
+                            <span>Ngoài shop</span>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__search-btn">
+                    <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="header__cart">
+                <a href="" class="header__cart-icon--link">
+                    <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                </a>
+                <div class="header__cart-product">
+                    <div class="header__cart-product--heading">
+                        <header class="header__cart-heading">
+                            <h3>Sản phẩm đã thêm</h3>
+                        </header>
+                    </div>
+                    <ul class="header__cart-list">
+                        <img src="https://img.abaha.vn/photos/origin/83-1580794419-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                        <li class="header__cart-item">
+                            <span class="header__cart-name">
+                                Set kem mắt tái sinh Ohui The First Geniture Eye Cream Edition Grand Blue
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="header__cart-list">
+                        <img src="https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                        <li class="header__cart-item">
+                            <span class="header__cart-name">
+                                Bộ kem đặc trị vùng mắt đặc biệt hiệu quả cho những người bị thâm quần
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="header__cart-list">
+                        <img src="	https://img.abaha.vn/photos/origin/83-1580711393-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                        <li class="header__cart-item">
+                            <span class="header__cart-name">
+                                Kem dưỡng trắng da hiệu quả ngay lần sử dụng đầu tiên
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app__container">
+        <div class="grid wide">
+            <div class="grid__row app__content">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <i class="category__heading-icon fa-solid fa-list-ul"></i>
+                            Danh mục
+                        </h3>
+                        <ul class="category__list">
+                            <li class="category__item category__item--active">
+                                <a href="#" class="category__item-link">Trang điểm mặt</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="#" class="category__item-link">Trang điểm môi</a>
+                            </li>
+                            <li class="category__item">
+                                <a href="#" class="category__item-link">Trang điểm mắt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid__conlumn-10">
+                    <div class="home__filter hide-on-mobile-tablet">
+                        <span class="home__filter-lable">Sắp xếp theo</span>
+                        <button class="home__filter-btn btn">Phổ biến</button>
+                        <button class="home__filter-btn btn home__filter-primary">Mới nhất</button>
+                        <button class="home__filter-btn btn">Bán chạy</button>
+                        <div class="seclect__input">
+                            <span class="seclect__input-lable">Giá</span>
+                            <i class="seclect__input-lable-icon fa-solid fa-chevron-down"></i>
+                            <ul class="seclect__input-list">
+                                <li class="seclect__input-item">
+                                    <a href="" class="seclect__input-item-link">Giá: Thấp đến cao</a>
+                                </li>
+                                <li class="seclect__input-item">
+                                    <a href="" class="seclect__input-item-link">Giá: Cao đến thấp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home__filter-page">
+                            <div class="home__filter-page-num">
+                                <span class="home__filter-page-num-current">1</span>/14
+                            </div>
+                            <div class="home__filter-page-control">
+                                <a href="#" class="home__filter-page-control-btn">
+                                    <i class="home__filter-page-icon fa-solid fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="home__filter-page-control-link">
+                                    <i class="home__filter-page-icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home__product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/24d3d3e9c395d2fd56c623368829d962_tn);"></div>
+                                        <h4 class="home__product-item-name">Bộ Áo Đấu MU Vodafone Mùa Gỉai 2009-2010. Hàng SPF Thailand chuẩn thi đấu 99%. Cam kết Y Hình - Hàng xịn
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">ABB</span>
+                                            <span class="home__produc-item-origin-place">Đồng Tháp</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/4047924c9246ac331135e1dd3e932b15_tn);"></div>
+                                        <h4 class="home__product-item-name">Áo đá bóng nam bộ đồ thể thao đá banh CLB hàng mè caro mát Mu Barca Real Juve Chelsea Arsenal Mancity Liver Psg Dortmund
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/a2fd79bf2f920831fe2293d30b7f7cfb_tn);"></div>
+                                        <h4 class="home__product-item-name">MU Trắng Teamview 2023 - Áo Bóng Đá Manchester United Trắng Sân Khách 2022-2023
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(	https://cf.shopee.vn/file/26cb1016f338307e4f79d7952954d276_tn);"></div>
+                                        <h4 class="home__product-item-name">Freeship toàn quốc_ Bộ quần áo đá bóng câu lạc bộ MU 2008 Vải thái chuẩn áo đấu phom 43-90kg    
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/a3970d94934860f322a901ba0b25a761_tn);"></div>
+                                        <h4 class="home__product-item-name">Áo Bóng Đá MU ĐỎ MỚI (bản Team Viewer) 202122 , Áo Đá Banh Hàng Thái Đẹp
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://img.abaha.vn/photos/origin/83-1586781803-myphamohui-lgvina.png);"></div>
+                                        <h4 class="home__product-item-name">Set kem mắt tái sinh Ohui The First Geniture
+                                            Eye Cream Edition Grand Blue
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/9719b5f87d9d41758da7fb04e2af28b9_tn);"></div>
+                                        <h4 class="home__product-item-name">Đồ Bóng Đá MU ĐỎ sân nhà mùa 2021   
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/b8da759d566eb77f7097bb4ec34782a7_tn);"></div>
+                                        <h4 class="home__product-item-name">Áo Đá Banh MU đỏ 2022-2023 Quần Áo bóng đá CLB Manchester United Đủ Mẫu - Vicsport
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/0713635c8f9a93e70ccd0a1e5b092f2b_tn);"></div>
+                                        <h4 class="home__product-item-name">ÁO MANCHESTER UNITED MÙA 2021/2022 
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <div class="home__product-item">
+                                        <!-- SẢN PHẨM PRODUCT -->
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/4c30c6aaeb51dae80ac16f1d3e713c70_tn);"></div>
+                                        <h4 class="home__product-item-name">ÁO MANCHESTER UNITED MÙA 2021/2022 
+                                        </h4>
+                                        <div class="home__produc-price">
+                                            <span class="home__produc-item-price-old">1.290.000đ</span>
+                                            <span class="home__produc-item-price-current">999.000đ</span>
+                                        </div>
+                                        <span class="home__produc--active">
+                                            <i class="home__produc--active-like fa-regular fa-heart"></i>
+                                            <div class="home__produc--active-rating">
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                                <i class="home__produc--active-rating-icon fa-solid fa-star"></i>
+                                            </div>
+                                        </span>
+                                        <div class="home__produc-item-origin">
+                                            <span class="home__produc-item-origin-brand">Whoo</span>
+                                            <span class="home__produc-item-origin-place">Nhật Bản</span>
+                                        </div>
+                                        <div class="home__produc-favourite">
+                                            <i class="home__produc-favourite-icon fa-solid fa-check"></i>
+                                            Yêu thích
+                                        </div>
+                                        <div class="home__produc-sale-off">
+                                            <span class="home__produc-sale-off-persent">10%</span>
+                                            <span class="home__produc-sale-off-lable">GIẢM</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            
+                            </div>
+                    </div>
+                    <ul class="pagination home__product__pagination">
+                        <li class="pagination-item">
+                            <a href="" class="pagination-item-link">
+                                <i class="fa-solid fa-chevron-left pagination-item-icon"></i>
+                            </a>
+                        </li>
+                        <li class="pagination-item pagination-item-active">
+                            <a href="#" class="pagination-item-link ">1</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">2</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">3</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">4</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">5</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">...</a>
+                        </li>
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">15</a>
+                        </li>
+                        
+                        <li class="pagination-item">
+                            <a href="#" class="pagination-item-link">
+                                <i class="fa-solid fa-chevron-right pagination-item-icon"></i>
+                            </a>                     
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="grid wide">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Chính sách vận chuyển</a>
+                        </li>
+                    </ul>                   
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">VỀ CHÚNG TÔI</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giới thiệu về chúng tôi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Điều khoản chính sách</a>
+                        </li>
+                    </ul>                   
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">DANH MỤC</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Áo thi đấu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Hàng chính hãng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">Giảm giá sốc</a>
+                        </li>   
+                    </ul>                   
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">THEO DÕI</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">
+                                <i class="footer-item-link-icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">
+                                <i class="footer-item-link-icon fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item-link">
+                                <i class="footer-item-link-icon fa-brands fa-linkedin"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>                   
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">VÀO CỬA HÀNG TRÊN ỨNG DỤNG</h3>
+                    <div class="footer__download">
+                        <img src="	https://adev42.com/frontend/assets/f8-shop/img/QRcode.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-apps-link">
+                                <img src="https://adev42.com/frontend/assets/f8-shop/img/google-play.png" alt="CH Play" class="footer__download-apps-icon">
+                            </a>
+                            <a href="" class="footer__download-apps-link">
+                                <img src="https://adev42.com/frontend/assets/f8-shop/img//app-store.png" alt="Apps Store" class="footer__download-apps-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grid wide">
+                <p class="footer__text">
+                        © 2022 BẢN QUYỀN THUỘC VỀ LÊ PHÚC
+                </p>
+            </div>
+        </div>
+
+        
+    </div>
+  </div>
+  <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="auth-form__container">
+                <!-- <div class="auth-form">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng kí </h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+    
+    
+                    <div class="auth-for__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">                      
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">                      
+                        </div>
+                    </div>
+    
+    
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy">
+                            Bằng việc đăng kí, bạn đồng ý với điều khoản Shoppe về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+    
+    
+                    <div class="auth-form__controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>  
+                </div> -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập </h3>
+                        <span class="auth-form__switch-btn">Đăng kí</span>
+                    </div>
+    
+    
+                    <div class="auth-for__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">                      
+                        </div>
+                    </div>
+    
+    
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                        <span class="auth-form__separate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+    
+    
+                    <div class="auth-form__controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="auth-form__socials">
+                <a href="" class="btn btn-size-s fb btn--with-icon">
+                    <i class="btn--with-icon-form fa-brands fa-square-facebook"></i>
+                    Kết nối với facebook
+                </a>
+                <a href="" class="btn btn-size-s gg btn--with-icon">
+                    <i class="btn--with-icon-form fa-brands fa-google"></i>
+                    Kết nối với facebook
+                </a>
+            </div> -->
+        </div>
+  </div> -->
+</body>
+</html>
